@@ -3,7 +3,7 @@ import {useState,useEffect} from 'react';
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://mern-3dht.onrender.com' 
+  baseURL: 'https://mern-3dht.onrender.com/api' 
 });
 // hello
 
